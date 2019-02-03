@@ -39,11 +39,13 @@ Since the end-points for resetting and playing use the CRUD methods DELETE and P
     - method: POST
     - payload: {"row":"1", "column":"1"} - the payload must be updated with the coordinates of the desired position, in the 3 X 3 matrix, as explained below
 
+    | |  |  |
+    | --- | --- | --- |
     | R: 0, C: 0 | R: 0, C: 1 | R: 0, C: 2 |
-    | --- | --- | --- |
     | R: 1, C: 0 | R: 1, C: 1 | R: 1, C: 2 |
-    | --- | --- | --- |
     | R: 2, C: 0 | R: 2, C: 1 | R: 2, C: 2 |
+
+    
 
 * To reset the game:
     - end-point: 7d38148c-6526-4cd7-9b21-56b498b93b12/reset
